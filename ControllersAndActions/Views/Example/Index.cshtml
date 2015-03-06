@@ -1,0 +1,15 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+
+
+
+<h2>Index</h2>
+
+The day is: @(((DateTime)TempData["Date"]).DayOfWeek)
+<p />
+The message is: @TempData["Message"]
